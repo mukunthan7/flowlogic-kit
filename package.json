@@ -29,9 +29,6 @@
   ],
   "author": "M.Mukunthan",
   "publisher": "M.Mukunthan",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "release": {
     "branch": "main",
     "repositoryUrl": "https://github.com/mukunthan7/flowlogic-kit",
