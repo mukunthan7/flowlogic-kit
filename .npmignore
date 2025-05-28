@@ -1,0 +1,45 @@
+# Source files
+src/
+tests/
+__tests__/
+
+# Development files
+*.config.js
+*.config.ts
+.eslintrc.*
+.prettierrc.*
+tsconfig.json
+jest.config.js
+rollup.config.js
+
+# Git files
+.git/
+.gitignore
+
+# CI/CD
+.github/
+.travis.yml
+.circleci/
+
+# Development dependencies
+coverage/
+.nyc_output
+
+# Editor files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env*
+
+# Lock files (optional - you might want to include these)
+package-lock.json
+yarn.lock

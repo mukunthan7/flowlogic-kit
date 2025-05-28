@@ -1,0 +1,37 @@
+{
+  "name": "flowlogic-kit",
+  "version": "1.0.0",
+  "description": "A flexible, pluggable workflow engine with conditions, actions, templates, and logs.",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "liquidjs": "^10.10.0",
+    "lodash-es": "^4.17.21"
+  },
+  "devDependencies": {
+    "@types/lodash-es": "^4.17.12",
+    "typescript": "^5.8.3"
+  },
+  "keywords": [
+    "workflow",
+    "engine",
+    "automation",
+    "template",
+    "liquid",
+    "logic",
+    "condition",
+    "action"
+  ],
+  "author": "M.Mukunthan",
+  "publisher": "M.Mukunthan",
+  "release": {
+    "branch": "main",
+    "repositoryUrl": "https://github.com/mukunthan7/flowlogic-kit",
+    "tagFormat": "v${version}"
+  },
+  "license": "MIT"
+}
